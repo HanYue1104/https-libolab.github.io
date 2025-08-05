@@ -41,8 +41,9 @@ body.home-page .main-content {
 }
 
 
-body.home-page .hero-subtitle {
-  font-size: 1.8rem;
+
+body.home-page .hero-title {
+  font-size: 3.5rem;
   margin-bottom: 15px;
   font-weight: 400;
   color: #FFF;
@@ -67,7 +68,6 @@ body.home-page .hero-subtitle {
   text-decoration: none;
   margin-bottom: 0;
 }
-
 
 body.home-page .hero-title, 
 body.home-page .hero-subtitle {
