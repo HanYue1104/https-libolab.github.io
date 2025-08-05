@@ -1,0 +1,38 @@
+project:
+  type: website
+
+website:
+  title: "Li LAB"
+  favicon: images/logo.png  
+  navbar:
+   logo: images/en_logo_black.png 
+   background: "#FFFFFF"  # 这里设置背景颜色为白色
+   search: true
+   right:
+      - text: "Home"
+        href: index.qmd
+      - text: "Research"
+        href:  Research.qmd
+      - text: "Team"
+        href: Team.qmd
+      - text: "Publication"
+        href: Publication.qmd        
+      - text: "News"
+        href:  News.qmd
+      - text: "Contact"
+        href:  Contact.qmd 
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    include-in-header:
+      text: |
+        <style>
+          body {
+            font-family: 'Roboto', sans-serif;
+          }
+        </style>
+
+editor: visual

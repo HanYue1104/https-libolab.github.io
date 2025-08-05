@@ -1,0 +1,17 @@
+{
+  "hash": "759e4b5fdc8e926647c678cb20392999",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Readme\"\noutput: html_document\n---\n\n\n\n\nLibo Lab website Build by Yue Han\n\nHome\n\nResearch\n\nTeam\n\nNews\n\nPublication\n\nContact\n",
+    "supporting": [
+      "Readme_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
