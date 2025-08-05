@@ -52,30 +52,54 @@ body.home-page .hero-section {
 /* === 主标题样式 (Li Lab) === */
 /* 修改父容器样式 */
 body.home-page .hero-section {
+  position: relative; /* 确保相对定位 */
   display: flex;
   justify-content: center; /* 水平居中 */
   align-items: center;     /* 垂直居中 */
   min-height: 100vh;      /* 确保容器高度充满视口 */
+  padding-top: 20vh;      /* 顶部内边距控制标题位置 */
 }
 
 /* 标题自身样式微调 */
 body.home-page .hero-title {
   font-size: 3.5rem;
-  margin-bottom: 15px;
+  margin-top: 5vh;        /* 从顶部开始定位 */
   color: #fff;
   font-weight: 700;
   letter-spacing: 2px;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
-  /* 移除 position: center (无效属性) */
+  text-align: center;     /* 确保文本居中 */
+  
+  /* 移除绝对定位 */
+  position: relative;
+  top: auto;
+  left: auto;
+  transform: none;
 }
 
-body.home-page .hero-title {
-  position: absolute;
-  top: 10%;  /* 顶部定位到50%位置 */
-  left: 50%; /* 左侧定位到50%位置 */
-  transform: translate(-50%, -50%); /* 反向偏移自身宽高的50% */
-  /* 保留原有字体/阴影样式 */
+/* 响应式调整 */
+@media (max-width: 768px) {
+  body.home-page .hero-section {
+    padding-top: 15vh;   /* 移动端减少顶部间距 */
+  }
+  
+  body.home-page .hero-title {
+    font-size: 2.8rem;
+    margin-top: 3vh;
+  }
 }
+
+@media (max-width: 480px) {
+  body.home-page .hero-section {
+    padding-top: 10vh;
+  }
+  
+  body.home-page .hero-title {
+    font-size: 2.2rem;
+    margin-top: 2vh;
+  }
+}
+
 
 /* === 副标题样式 (Exploring Life's Molecular Mysteries) === */
 body.home-page .hero-subtitle {
