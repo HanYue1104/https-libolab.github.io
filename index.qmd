@@ -8,7 +8,7 @@ format: html
 ::: hero-section
 <h1 class="hero-title">Li Lab</h1>
 
-<h3 class="hero-subtitle">“The most important thing is motivation” – Sydney Brenner</h3>
+
 
 <a href="Research.qmd" class="btn">Explore Us</a>
 
