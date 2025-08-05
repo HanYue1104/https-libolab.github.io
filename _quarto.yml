@@ -3,6 +3,8 @@ project:
 
 website:
   title: "Li LAB"
+  baseurl: "/https-libolab.github.io" # 替换为您的仓库名
+  resources: "styles.css"
   favicon: images/logo.png  
   navbar:
    logo: images/en_logo_black.png 
