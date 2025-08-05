@@ -71,7 +71,7 @@ body.home-page .hero-title {
 
 body.home-page .hero-title {
   position: absolute;
-  top: 30%;  /* 顶部定位到50%位置 */
+  top: 50%;  /* 顶部定位到50%位置 */
   left: 50%; /* 左侧定位到50%位置 */
   transform: translate(-50%, -50%); /* 反向偏移自身宽高的50% */
   /* 保留原有字体/阴影样式 */
