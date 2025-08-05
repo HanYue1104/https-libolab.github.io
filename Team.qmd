@@ -53,7 +53,7 @@ xionghui\@westlake.edu.cn
 <!-- 2 -->
 
 :::::: team-member-item
-<img src="images/team/wuqiang.png" alt="Wuqiang Guan" class="member-photo"/>
+<img src="images/team/wuqiang.jpg" alt="Wuqiang Guan" class="member-photo"/>
 
 ::: member-name
 Wuqiang Guan (官武强)
