@@ -40,56 +40,39 @@ body.home-page .main-content {
   text-align: center;
 }
 
-/* === 整体作用域定义 === */
-/* 限制这些样式仅在首页（类为 home-page 的 body 元素）中生效 */
-body.home-page .hero-section {
-  /* 设置英雄区域的内边距为 50 像素（上、右、下、左各 50px）*/
-  padding: 50px;
-  /* 文本内容水平居中对齐 */
-  text-align: center;
-}
-
-/* === 主标题样式 (Li Lab) === */
-/* 修改父容器样式 */
-body.home-page .hero-section {
-  display: flex;
-  justify-content: center; /* 水平居中 */
-  align-items: center;     /* 垂直居中 */
-  min-height: 100vh;      /* 确保容器高度充满视口 */
-}
-
-/* 标题自身样式微调 */
+/* === 主标题样式 === */
 body.home-page .hero-title {
   font-size: 3.5rem;
-  margin-bottom: 15px;
-  color: #fff;
-  font-weight: 700;
-  letter-spacing: 2px;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
-  /* 移除 position: center (无效属性) */
-}
-
-body.home-page .hero-title {
-  position: absolute;
-  top: 30%;  /* 顶部定位到50%位置 */
-  left: 50%; /* 左侧定位到50%位置 */
-  transform: translate(-50%, -50%); /* 反向偏移自身宽高的50% */
-  /* 保留原有字体/阴影样式 */
-}
-
-/* === 副标题样式 (Exploring Life's Molecular Mysteries) === */
-body.home-page .hero-subtitle {
-  font-size: 1.8rem;
-  margin-bottom: 15px;
   font-weight: 400;
   color: #FFF;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
   position: absolute;
-  top: 38%;
+  top: 32%;
   left: 50%;
   transform: translate(-50%, -50%);
-  /* 关键修改：添加此行去除下划线 */
-  text-decoration: none; 
+  text-decoration: none;
+  margin-bottom: 0;
+}
+
+body.home-page .hero-subtitle {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #FFF;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+  margin-bottom: 0;
+}
+
+
+body.home-page .hero-title, 
+body.home-page .hero-subtitle {
+  text-decoration: none !important;
+  border-bottom: none !important;
+  outline: none !important;
 }
 
 /* ========= 其他页面样式 ========= */
