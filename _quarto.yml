@@ -36,3 +36,5 @@ format:
         </style>
 
 editor: visual
+execute:
+  freeze: auto

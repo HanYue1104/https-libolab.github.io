@@ -8,6 +8,7 @@ format:
 <h1 class="section-title">
 
 Principal Investigator
+
 </h1>
 
 ::::: principal-investigator
@@ -27,6 +28,7 @@ Principal Investigator
 <h2 class="category-title">
 
 Research Staff
+
 </h2>
 
 <!-- 1 -->
@@ -105,7 +107,7 @@ hongfeng\@westlake.edu.cn
 <!-- 5 -->
 
 :::::: team-member-item
-<img src="images/team/" class="member-photo"/>
+<img src="images/team/xuefeng.jpg" class="member-photo"/>
 
 ::: member-name
 Feng Xue (薛峰)
@@ -177,7 +179,7 @@ chenkang\@westlake.edu.cn
 <!-- 9 -->
 
 :::::: team-member-item
-<img src="images/team/gcf.jpg" alt="Gechaofan" class="member-photo"/>
+<img src="images/team/gechaofan.png" alt="Gechaofan" class="member-photo"/>
 
 ::: member-name
 Chaofan Ge (葛超凡)
@@ -213,7 +215,7 @@ huguanglei\@westlake.edu.cn
 <!-- 11 -->
 
 :::::: team-member-item
-<img src="images/team/" alt="Huji" class="member-photo"/>
+<img src="images/team/huji.jpg" alt="Huji" class="member-photo"/>
 
 ::: member-name
 Ji Hu (胡冀)
@@ -358,6 +360,7 @@ zhangyouyi\@westlake.edu.cn
 <h2 class="category-title">
 
 Technical Staff
+
 </h2>
 
 ::::::::::::::::::::::::::::::: team-grid
@@ -493,6 +496,7 @@ zhuxueshuo\@westlake.edu.cn
 <h2 class="category-title">
 
 Graduate Students
+
 </h2>
 
 ::::::::::::::::::::::::::::::::::::::: team-grid
@@ -662,6 +666,7 @@ heshuai\@westlake.edu.cn
 <h2 class="category-title">
 
 Visiting Students
+
 </h2>
 
 ::::::::::::::: team-grid
@@ -723,6 +728,7 @@ yanyu\@westlake.edu.cn
 <h2 class="category-title">
 
 Alumni
+
 </h2>
 
 Zhouwei Wang (王舟炜), Research Assistant (2023.12 \~ 2025.7)
