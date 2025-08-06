@@ -6,14 +6,9 @@ format: html
 
 :::: main-content
 ::: hero-section
-<<<<<<< HEAD
 
-
-<h2 class="hero-title">Li Lab</h2> 
-=======
 <h2 class="hero-title">Li Lab</h2>
 
->>>>>>> 83b90cd0ea1db274188ba6405bd109c9e45c9a38
 <h3 class="hero-subtitle">“The most important thing is motivation” – Sydney Brenner</h3>
 
 <a href="Research.qmd" class="btn">Explore Us</a>

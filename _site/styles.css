@@ -40,9 +40,11 @@ body.home-page .main-content {
   text-align: center;
 }
 
-/* === 主标题样式 === */
+
+
 body.home-page .hero-title {
   font-size: 3.5rem;
+  margin-bottom: 15px;
   font-weight: 400;
   color: #FFF;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
@@ -67,13 +69,13 @@ body.home-page .hero-subtitle {
   margin-bottom: 0;
 }
 
-
 body.home-page .hero-title, 
 body.home-page .hero-subtitle {
   text-decoration: none !important;
   border-bottom: none !important;
   outline: none !important;
 }
+
 
 /* ========= 其他页面样式 ========= */
 body:not(.home-page) {
